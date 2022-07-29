@@ -2,6 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.bg-filtered {
+.filtered-img {
     filter: brightness(50%);
+}
+
+/* Media Queries */
+@media screen and (max-width:768px) {
+    .filtered-img {
+        margin-top: 50px;
+    }
 }
